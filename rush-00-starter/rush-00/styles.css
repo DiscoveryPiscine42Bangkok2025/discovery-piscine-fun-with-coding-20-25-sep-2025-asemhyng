@@ -1,0 +1,12 @@
+.avatar {
+  width: 220px;       /* กำหนดความกว้าง */
+  height: 220px;      /* กำหนดความสูง */
+  object-fit: cover;  /* ทำให้รูปไม่บิด */
+  border-radius: 50%; /* ทำให้เป็นวงกลม */
+  border: 5px solid #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90vw;    /* ไม่ให้ใหญ่เกินจอมือถือ */
+  max-height: 90vw;
+}
